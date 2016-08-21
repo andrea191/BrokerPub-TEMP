@@ -1,0 +1,17 @@
+{
+  "name": "BrokerPub-TEMP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ds18x20": "^0.2.0",
+    "mosca": "^2.0.1",
+    "mqtt": "^1.13.0",
+    "redis": "^2.6.2"
+  }
+}
