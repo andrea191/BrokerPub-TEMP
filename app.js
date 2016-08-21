@@ -62,13 +62,7 @@ function dataMessage() {
   if (serial_temp){ //to test on RPi with sensor.
     data['temperature'] = sensor.get(serial_temp);
   }
-
-  console.log(data);
-  console.log(typeof data);
   var data_string = JSON.stringify(data);
-  console.log(data_string);
-  console.log(typeof data_string);
-
   var message = {
         topic: '/'+gateway_id+'/temperature/TEMP001',
         payload: data_string, // String or a Buffer
